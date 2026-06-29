@@ -1,0 +1,729 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Manim Slides</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/highlight/zenburn.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_786b44dacbf73f08d6fe1a119a28c3beb6dd9f00b77bb5b077bc32749fc4cfd5.mp4"
+          data-background-video-muted
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_cb8ba4b04f407f622aebde183eacc58e052878a384bcc3ec2c370d30ed52daa5.mp4"
+          >
+            <aside class="notes" data-markdown>Land the title, set the tone, then move quickly to who you are. Credit the source decks (Jurafsky SLP, Blumenstock INFO 251).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_4553fe9dbd7ab909e88abfaa547af7b51ce76e5a925648381be399dbd96c2e79.mp4"
+          >
+            <aside class="notes" data-markdown>Quick intro: Carl, the Responsibility Lab - computational social science at the CS/Psychology intersection, currently CS + legal problems.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_80049e423e6a6128c2c8f6f5fc23ddfbe0357b1487fd280950c435824f0d43b2.mp4"
+          >
+            <aside class="notes" data-markdown>Each day stands alone but compounds. Today is the foundation. Plant: attention (Day 4) fixes an NLP problem.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_dc56327243e79370621f089cf9d8e62123704202657ac07bc56cc4667019fd4d.mp4"
+          >
+            <aside class="notes" data-markdown>Set the rhythm: slides motivate, notebooks apply. Notebooks are follow-along - they code with you.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_b140fa93c514b21544caea6996fb42f5b8e73c7de28d0831483c09754d6fa4cd.mp4"
+          >
+            <aside class="notes" data-markdown>AlphaFold: decades-old biology problem (structure from sequence), point at impact. Poverty: ML on satellite + geospatial data produces high-res poverty maps used to target government cash transfers to the poorest families - matters where disaggregated survey data is missing (Nigeria study).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_4a6843f668e4c9ac0fee4cce5c2c1825aa997dd1ff9628f22c76d9a19af60eea.mp4"
+          >
+            <aside class="notes" data-markdown>Say the three dates out loud. The inflection: AlexNet 2012, GPUs + ImageNet. ~15% vs ~26% top-5 (verify figure).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s0_841233c7d79feb4d83694bcbeb600e0aa1333e02b64933bce38bfc6165e0d4c9.mp4"
+          >
+            <aside class="notes" data-markdown>Real neuron: collects signals, fires past threshold. The McCulloch-Pitts model (1943) cast this as propositional logic (AND/OR/NOT from neurons). We borrow only the shape. Insert the labeled neuron image here.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s1_7a8b4802f0a0889d30e77bcaf7d6d03ce4834089c028115116fae47e91a512ed.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s1_c889e12e2234c17d000b5163f28317707bdd72b6845f912b18c96ec953f16af2.mp4"
+          >
+            <aside class="notes" data-markdown>Walk left to right: multiply, sum, add bias, threshold. The dot product w.x is a measure of alignment / similarity between the input vector x and the perceptron's weights w. The bias shifts the decision boundary left or right.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s1_7650551e7073a0a600d81f60b39aee8c0b200c07d18889e071698e321535323b.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_786b44dacbf73f08d6fe1a119a28c3beb6dd9f00b77bb5b077bc32749fc4cfd5.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_8b3ab39a9a36e666c8bc89d489a3ac1a10713da54f034e14e148d2b3ee3cccb8.mp4"
+          >
+            <aside class="notes" data-markdown>The perceptron only ever draws a straight boundary. Ask: what weights separate these two clouds?</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_7650551e7073a0a600d81f60b39aee8c0b200c07d18889e071698e321535323b.mp4"
+          >
+            <aside class="notes" data-markdown>A single perceptron computes AND. h = Sign(b + w1x1 + w2x2). One solution w1=w2=0.5, b=-0.8. Bias b is sometimes written w0; threshold T=-b.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_80049e423e6a6128c2c8f6f5fc23ddfbe0357b1487fd280950c435824f0d43b2.mp4"
+          >
+            <aside class="notes" data-markdown>Ask if they can find another solution - many weight sets work.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_725ec81fadaa74da4951d67d233dd4baa742ada23d9e5cf26faec2a44bee4f93.mp4"
+          >
+            <aside class="notes" data-markdown>Interactive: have them find OR weights. A solution: w1=0.5, w2=0.5, b=-0.3 (one 'on' is enough).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_3e4c69586778a5aecb6d046436fead99cc7b78795b0c535c4ad0b892a63f7d6d.mp4"
+          >
+            <aside class="notes" data-markdown>Reveal one solution. The bias is less negative than AND, so a single 'on' clears the threshold.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_1fab3e262374a848f6c5214a63dfa9017ce45cc1b1eb0f64575cc6dc12659c97.mp4"
+          >
+            <aside class="notes" data-markdown>AND and OR are separable (a line works); XOR is not - no straight line splits the two True corners from the False ones. Minsky & Papert 1969.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_6b189533f33798cacd8e9606ab8b65a3ee5b726281db063d6962c66a0c953c87.mp4"
+          >
+            <aside class="notes" data-markdown>A perceptron is a linear classifier: great for AND/OR, helpless on XOR, because its boundary is always linear. That limitation motivates multilayer networks.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_0ff79032e7cc8bb29c130fea70f22482900b6136865272e0295e4be1c258b63a.mp4"
+          >
+            <aside class="notes" data-markdown>XOR is the poster child: not linearly separable, so a perceptron can never get it. This stalled the field for years.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_0c98c309c599117923084c67c7492582b0d4e46f85497f77f01f99ce910fe00f.mp4"
+          >
+            <aside class="notes" data-markdown>Stack neurons into layers -> MLP. Input, hidden(s), output. Two weight layers already buy huge expressive power.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_25580785a152ec9b6c42ba84f204417d50bda07d897cfe332253733acd33c56f.mp4"
+          >
+            <aside class="notes" data-markdown>Now that we have multilayer nets: how powerful are they? UAT - a wide enough two-layer net can approximate any function. Caveat: existence, not findability. Proven by Cybenko (1989) for sigmoids and Hornik, Stinchcombe & White (1989) more generally.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s2_f812bc6a42df26acf7029d82f505d2f9edc06a5a1b47fe421fd38e276be233fe.mp4"
+          >
+            <aside class="notes" data-markdown>One worked MLP for XOR (drawn left to right): two inputs feed three hidden nodes (0.6, 1.5, 0.6), combined with weights 1, -2, 1 into output 0.5. The hidden layer makes XOR separable.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_367dc918be8b2a4b370a76f87a9e45734585767eb1acf7c35c8db019e4ea03b2.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_445b58ff9a9d4a3b9777b2350387e0440d9662e96832a3c02c2dd4fc408a39b8.mp4"
+          >
+            <aside class="notes" data-markdown>Input X is a row of 3, weights W_xh are 3x2. Each line in the diagram is a weight.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_8be165bc05a6f463dd0e28f45d27d8af0f934ba89a34ee788bc4dfc04ecd77e4.mp4"
+          >
+            <aside class="notes" data-markdown>The weight matrix matches the labeled edges in the diagram.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_df6e936e91d82cc1e41018872f7c5b2b8485d3c54a4c6bfabe09dc27fdcd0d7b.mp4"
+          >
+            <aside class="notes" data-markdown>h = X.W_xh: h0 = 1(0.1)+1(0.3)+0(0.5) = 0.4, h1 = 1(0.2)+1(0.4)+0(0.6) = 0.6.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_dfa4d63f8e081293f3b6f5c10be00b92462e1b1e453d499ef05ff3c3c832a3c1.mp4"
+          >
+            <aside class="notes" data-markdown>Hidden-to-output weights, a 2x1 column.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_7650551e7073a0a600d81f60b39aee8c0b200c07d18889e071698e321535323b.mp4"
+          >
+            <aside class="notes" data-markdown>O = h.W_ho = 0.4(1) + 0.6(1) = 1.0. No bias here.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_80049e423e6a6128c2c8f6f5fc23ddfbe0357b1487fd280950c435824f0d43b2.mp4"
+          >
+            <aside class="notes" data-markdown>Apply sigmoid at the output: sigma(1.0) = 0.731. Activation applied only at the output here.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_725ec81fadaa74da4951d67d233dd4baa742ada23d9e5cf26faec2a44bee4f93.mp4"
+          >
+            <aside class="notes" data-markdown>Same network plus bias nodes (the '1's). Each bias node feeds every node in the next layer.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_4ec192c29c6d029e66ac8238b475b3ff6ec5df3f09780e97282fe9b0bef695e3.mp4"
+          >
+            <aside class="notes" data-markdown>Add the bias to each hidden value: h = [0.4+0.1, 0.6+0.1] = [0.5, 0.7].</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_dc40e44822195db5cb4cb71a162f4e203af7aa35586971bb5fd43025f7eb0dd3.mp4"
+          >
+            <aside class="notes" data-markdown>Output bias too: O = 0.5(1) + 0.7(1) + 0.3 = 1.5.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_cda9eb903971652f5ac84bb34d04119e532c8bd25394b8db86c90a4a66d1e5a7.mp4"
+          >
+            <aside class="notes" data-markdown>Solve it: sigma(1.5) = 0.818. The '1' nodes just add a constant to each pre-activation.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_801527b94351c899d3b9d0d0da57827ff58d93d7e6314d59e699429de7b9ca73.mp4"
+          >
+            <aside class="notes" data-markdown>Non-linearity lets us bend boundaries: linear = shift the space, non-linear = fold/crumple it. W2(W1x)=(W2W1)x is STILL linear (no activation); W2.sigma(W1x) is non-linear. Bottom-left: linear vs folded boundary (MIT Intro to Deep Learning). Must be differentiable for gradient training.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_85cc9f6e38496ef1e37982d85b102b17ed25377559b6035cf291c2096c856c1a.mp4"
+          >
+            <aside class="notes" data-markdown>This is WHY ReLU won. Saturated derivatives (~0) multiply across layers and the error signal vanishes. ReLU's derivative is 1 for high z, so the signal survives depth. Source: SLP3 6.1.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_a9018f0ee659709dd45dc07f4766880ee4f9885e0adbf794a8880c719d795161.mp4"
+          >
+            <aside class="notes" data-markdown>Softmax -> probs. CE = -log p_correct. Note to self: language modeling = classification over the vocabulary -> CE carries into NLP.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_1b6b259b3c3bb0ac4390811bc4aba19f1aa08299f3bc4a4c13e356a1065cd272.mp4"
+          >
+            <aside class="notes" data-markdown>Gradient uphill; step opposite. In practice GD is implemented as mini-batch (k of n rows) or stochastic (one random row per update); full-batch uses all n. Vocab: epoch = one full pass; batch = the rows in a step.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_49b29aec66d7496d8847e4e9f66ac5f2950b923a15a34db5cd57f4c52e6dd227.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_c4a6b7207b12d48aa5df7cffb5e6920ee135647a1cbf49c75b0ee3da9c7eb9bd.mp4"
+          >
+            <aside class="notes" data-markdown>The objective: minimize squared error over all observations. The inner sum (second-layer weights v times sigmoid of first-layer dot products) IS the prediction. n = observations, i = hidden units, v = output weights, f = sigmoid, w_i = weights into hidden node i.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_2a6f7c82097157c87b8d6bdd556df95add7ae32b326594d6c56bdd16c52e685e.mp4"
+          >
+            <aside class="notes" data-markdown>Where e comes from: the loss is squared error 1/2 (y - yhat)^2, and yhat is the inner sum. Differentiating the loss wrt yhat gives -(y - yhat), which we name -e. So e = y - yhat is just the residual the loss hands us. The chain rule then carries that e through: dL/df_i = -e v_i, df_i/dw_i = f'(w_i.x) x, and multiplying gives the gradient.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_c8db5bf36308f41de76fcb6a81b9dd369fa967ba11ef0ecb408825efb3c80b9c.mp4"
+          >
+            <aside class="notes" data-markdown>Recall e = y - yhat (the residual from the loss). Sanity-check the formula: small error -> small step; a hidden unit with little influence (small v_i) gets a small gradient; sign of the update follows the sign of e and v_i. The math matches the intuition.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_280c7e313081188908c47f7707b1c0e2821d64c6d84d87fa7be99c0365ecbd97.mp4"
+          >
+            <aside class="notes" data-markdown>Tiny scalar net = one nested function from x to L. To train we need dL/dw for each weight.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_480bc7d38914bf11ed49b622cc110c63e15b2695f6509d862d3039fc487431cf.mp4"
+          >
+            <aside class="notes" data-markdown>The whole network is one function. Now differentiate it - and watch the deltas appear.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_59fb7e9813940ba5a57ba02220984fc56eefc0b6b88a75efbedbeec80ae60400.mp4"
+          >
+            <aside class="notes" data-markdown>A delta is just a name for dL/dz - a chunk of the chain rule we are about to watch appear.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_575155e28c6bfc5355ca368012fae70ee93b138007fc36e82dfa33f0c0513fd6.mp4"
+          >
+            <aside class="notes" data-markdown>w2 reaches L through z2->a2->L: dL/dw2 = (a2-y)sigma'(z2) * a1. Bundle the first two factors = delta_2.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_27019c3c5c61b4b4d806e708d6a863770d9f871ebe55f78584c0537e9cf1c973.mp4"
+          >
+            <aside class="notes" data-markdown>w1 is deeper; its chain reuses the SAME delta_2, then bundles one more chunk into delta_1. Deltas are reused chain-rule pieces.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_497911d949acde3cd0acf2b44e50a5cbde2d5b7f1b5886084c03c5aad7eb03cc.mp4"
+          >
+            <aside class="notes" data-markdown>Rules: every weight gradient = (delta of the node it feeds) x (its input); delta_1 = delta_2 pushed back a step. That reuse IS backprop. Next: plug in numbers.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_0d2de5d42a793dc861d8d0bf905902da4f6b337f722d461f4391228d07cbde7b.mp4"
+          >
+            <aside class="notes" data-markdown>The formulas from the last slide sit on the left for reference; the graph is a vertical tree. Now the forward pass, top to bottom, on the LEFT (green).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_3ee7609fc8d0a8c1ab1a5af46b84f8f9a294dbe8b653d158af7aa2ea9c2c3a2b.mp4"
+          >
+            <aside class="notes" data-markdown>Now backprop, bottom to top, on the RIGHT (red). Each red number is a left-hand formula evaluated: delta_2 = (a2-y)sigma'(z2) = 0.1409, dL/dw2 = delta_2 * a1 = 0.0877, etc.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_676182e174e0dbc7fc2c4b277ae822e77a312b950c3f1d0c0f8b775a77b4c86a.mp4"
+          >
+            <aside class="notes" data-markdown>Left = the formulas; tree-left = forward numbers; tree-right = the same formulas solved. The deltas (red, at nodes) attribute error; the dL/dw terms are the gradients you apply.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_e75dd5898781f48f287a86abc2ceb925c30c3d315e0220aa89e34c90689dde6a.mp4"
+          >
+            <aside class="notes" data-markdown>The recipe scales to any depth: (1) forward to get outputs, (2) backward to generate a delta at every node, (3) update each weight with its delta - exactly the gradient-descent step.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_7a81a729e3733099cc5e885c75993cbf2595a54da6db95f4ef57ce80e8c6964a.mp4"
+          >
+            <aside class="notes" data-markdown>Forward: inputs flow right, sigmoid of dot products at each node, producing outputs and residuals (errors at the output).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_a27971613745cd02875738c70cd23ccf889e2361ad18756ef391b9cf56e96c9b.mp4"
+          >
+            <aside class="notes" data-markdown>Backward: the error flows left; each node accumulates a delta - its share of the blame for the loss.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s3_6fc42fcde0fa079290c8ad616f55b03c8221c256c7fbfe14954a9f3e7e0ee9e4.mp4"
+          >
+            <aside class="notes" data-markdown>Cost measures how close the output is to the truth. The output delta is Y(1-Y)(Yhat-Y). A hidden node's delta is the downstream delta times the connecting weight (delta_5 = w56 * delta). Then update every weight by eta * delta * input - gradient descent. Deriving these is mostly chain rule + gradient descent (ESL ch.11).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_367dc918be8b2a4b370a76f87a9e45734585767eb1acf7c35c8db019e4ea03b2.mp4"
+          >
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_cf19530884e665c2c8d35249ade65a31f2767f3cb4a26d03fd0f940bf9b9630a.mp4"
+          >
+            <aside class="notes" data-markdown>Callback to NB2's hand-written backward. Composability + pretrained + speed + autodiff. Our NumPy version was for understanding.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_cb5fe3457a6b3959a8fefadf122ccc3ae86d90e26e001beb121bcef03fa514fb.mp4"
+          >
+            <aside class="notes" data-markdown>Map each to NB2: tensor=arrays, autograd=our backward, Module=our layer fns, optim=our update. requires_grad is the tracking switch.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_80049e423e6a6128c2c8f6f5fc23ddfbe0357b1487fd280950c435824f0d43b2.mp4"
+          >
+            <aside class="notes" data-markdown>Walk the five lines slowly - the heart of every model this week. zero_grad gotcha. Memorize the shape of this loop.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_65403ea637a2676071bd31a11786b3323c154e93f022cab85a8699fe57436cd5.mp4"
+          >
+            <aside class="notes" data-markdown>Our hands-on demo: build and train an MLP in PyTorch on real images - the 5-line training loop in action. notebooks/01_pytorch_mlp_fashionmnist.ipynb. (Backprop-from-scratch is the lab assignment, so we don't spoil it here.)</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_af193ca86cc1f5d9833ad675c3fcfb59fb70e3d8cbc7b2e32335d9e83d6d349b.mp4"
+          >
+            <aside class="notes" data-markdown>Training is non-convex, so initialization matters (random small weights; train several nets). Overfitting fixes: early stopping, smaller nets, L1/L2, dropout. The curve: train accuracy keeps rising while test accuracy peaks then falls - stop at the peak.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_764ccf2e4f35863f52da9f683b49cdfe24c2aa5c12ed354d873291162538ac58.mp4"
+          >
+            <aside class="notes" data-markdown>Three big practical issues: gradients (vanish/explode -> ReLU, batchnorm), learning rate (schedules, adaptive optimizers), and compute (GPU/TPU, mini-batches, checkpointing).</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_744cceb389567346c5e66ab88a709e3c4575bf7964f802656c8e08277fca4095.mp4"
+          >
+            <aside class="notes" data-markdown>Lots of knobs, and they interact. There is no single recipe - this motivates automated search.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_31b3f07aca839a9c4a09adcb4f8cf9ce388f7025036b2d8824d8bdba8c5466c5.mp4"
+          >
+            <aside class="notes" data-markdown>Grid search = exhaustive but expensive; random search = cheaper, usually nearly as good; Bayesian optimization = model which settings help and explore smartly, great when each run is costly.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_4e1d725b00ed426b7c764132b11506e2af73ac1803722b4a4af618fa125f92ec.mp4"
+          >
+            <aside class="notes" data-markdown>The methods table (Grid, Random, Bayesian, Genetic Algorithms, Hyperband, Population-Based Training, RL-based, Neural Architecture Search). Credit Blumenstock.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_fc3c66ef0da9a86103829d279956c95a33f2650144cb18699a76abcc1bd5f47c.mp4"
+          >
+            <aside class="notes" data-markdown>You rarely tune by hand today - name-drop the tool families so they know what to reach for: Bayesian-opt libraries, friendlier HPO tools, AutoML, and experiment trackers.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_25580785a152ec9b6c42ba84f204417d50bda07d897cfe332253733acd33c56f.mp4"
+          >
+            <aside class="notes" data-markdown>The six things to remember from Day 1. This mirrors the Blumenstock summary; use it to recap before the bridge to NLP.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_8fe50b10eb8f42827293dfb17c8ff0a9f1777f16d7b8fb9be015767e55dd97e0.mp4"
+          >
+            <aside class="notes" data-markdown>Retrace the day in one breath. Pose the open question: text isn't numbers - how do we feed it to a net? That's tomorrow.</aside>
+        </section>
+        <section
+          data-background-size='contain'
+          data-background-color="#1e1e22"
+          data-background-video="day1_assets/s4_76e7ef84bebeccf588e4c198aa4977b0536ed5591584877a563f90ce3d8e491a.mp4"
+          >
+            <aside class="notes" data-markdown>Run the one command for your OS - it installs everything (incl. Graphviz/dot) into a fresh nn-lab conda env and downloads the lab notebook. Then activate the env and launch Jupyter.</aside>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/notes.js"></script>
+
+    <!-- To include plugins, see: https://revealjs.com/plugins/ -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@6.0.1/dist/plugin/markdown.js"></script>
+
+    <!-- <script src="index.js"></script> -->
+    <script>
+      Reveal.initialize({
+        /// The list of RevealJS plugins.
+        plugins: [ RevealMarkdown, RevealNotes ],
+        // The "normal" size of the presentation, aspect ratio will
+        // be preserved when the presentation is scaled to fit different
+        // resolutions. Can be specified using percentage units.
+        width: '100%',
+        height: '100%',
+        // Factor of the display size that should remain empty around
+        // the content
+        margin: 0.04,
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+        maxScale: 2.0,
+        // Display presentation control arrows
+        controls: true,
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+        // Display a presentation progress bar
+        progress: false,
+        // Display the page number of the current slide
+        // - true:    Show slide number
+        // - false:   Hide slide number
+        //
+        // Can optionally be set as a string that specifies the number formatting:
+        // - "h.v":   Horizontal . vertical slide number (default)
+        // - "h/v":   Horizontal / vertical slide number
+        // - "c":   Flattened slide number
+        // - "c/t":   Flattened slide number / total slides
+        //
+        // Alternatively, you can provide a function that returns the slide
+        // number for the current slide. The function should take in a slide
+        // object and return an array with one string [slideNumber] or
+        // three strings [n1,delimiter,n2]. See #formatSlideNumber().
+        slideNumber: false,
+        // Can be used to limit the contexts in which the slide number appears
+        // - "all":      Always show the slide number
+        // - "print":    Only when printing to PDF
+        // - "speaker":  Only in the speaker view
+        showSlideNumber: 'all',
+        // Use 1 based indexing for # links to match slide number (default is zero
+        // based)
+        hashOneBasedIndex: false,
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: false,
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: false,
+        // Enable support for jump-to-slide navigation shortcuts
+        jumpToSlide: true,
+        // Push each slide change to the browser history.  Implies `hash: true`
+        history: false,
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+        // Optional function that blocks keyboard events when retuning false
+        //
+        // If you set this to 'focused', we will only capture keyboard events
+        // for embedded decks when they are in focus
+        keyboardCondition: null,
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+        // Enable the slide overview mode
+        overview: true,
+        // Vertical centering of slides
+        center: true,
+        // Enables touch navigation on devices with touch input
+        touch: true,
+        // Loop the presentation
+        loop: false,
+        // Change the presentation direction to be RTL
+        rtl: false,
+        // Changes the behavior of our navigation directions.
+        //
+        // "default"
+        // Left/right arrow keys step between horizontal slides, up/down
+        // arrow keys step between vertical slides. Space key steps through
+        // all slides (both horizontal and vertical).
+        //
+        // "linear"
+        // Removes the up/down arrows. Left/right arrows step through all
+        // slides (both horizontal and vertical).
+        //
+        // "grid"
+        // When this is enabled, stepping left/right from a vertical stack
+        // to an adjacent vertical stack will land you at the same vertical
+        // index.
+        //
+        // Consider a deck with six slides ordered in two vertical stacks:
+        // 1.1    2.1
+        // 1.2    2.2
+        // 1.3    2.3
+        //
+        // If you're on slide 1.3 and navigate right, you will normally move
+        // from 1.3 -> 2.1. If "grid" is used, the same navigation takes you
+        // from 1.3 -> 2.3.
+        navigationMode: 'default',
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+        // Turns fragments on and off globally
+        fragments: true,
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+        // Flags if we should show a help overlay when the question-mark
+        // key is pressed
+        help: true,
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+        // Global override for autolaying embedded media (video/audio/iframe)
+        // - null:   Media will only autoplay if data-autoplay is present
+        // - true:   All media will autoplay, regardless of individual setting
+        // - false:  No media will autoplay, regardless of individual setting
+        autoPlayMedia: null,
+        // Global override for preloading lazy-loaded iframes
+        // - null:   Iframes with data-src AND data-preload will be loaded when within
+        //           the viewDistance, iframes with only data-src will be loaded when visible
+        // - true:   All iframes with data-src will be loaded when within the viewDistance
+        // - false:  All iframes with data-src will be loaded only when visible
+        preloadIframes: null,
+        // Can be used to globally disable auto-animation
+        autoAnimate: true,
+        // Optionally provide a custom element matcher that will be
+        // used to dictate which elements we can animate between.
+        autoAnimateMatcher: null,
+        // Default settings for our auto-animate transitions, can be
+        // overridden per-slide or per-element via data arguments
+        autoAnimateEasing: 'ease',
+        autoAnimateDuration: 1.0,
+        autoAnimateUnmatched: true,
+        // CSS properties that can be auto-animated. Position & scale
+        // is matched separately so there's no need to include styles
+        // like top/right/bottom/left, width/height or margin.
+        autoAnimateStyles: ['opacity', 'color', 'background-color', 'padding', 'font-size', 'line-height', 'letter-spacing', 'border-width', 'border-color', 'border-radius', 'outline', 'outline-offset'],
+        // Controls automatic progression to the next slide
+        // - 0:      Auto-sliding only happens if the data-autoslide HTML attribute
+        //           is present on the current slide or fragment
+        // - 1+:     All slides will progress automatically at the given interval
+        // - false:  No auto-sliding, even if data-autoslide is present
+        autoSlide: 0,
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+        // Use this method for navigation when auto-sliding (defaults to navigateNext)
+        autoSlideMethod: null,
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+        // Opens links in an iframe preview overlay
+        // Add `data-preview-link` and `data-preview-link="false"` to customize each link
+        // individually
+        previewLinks: false,
+        // Exposes the reveal.js API through window.postMessage
+        postMessage: true,
+        // Dispatches all reveal.js events to the parent window through postMessage
+        postMessageEvents: false,
+        // Focuses body when page changes visibility to ensure keyboard shortcuts work
+        focusBodyOnPageVisibilityChange: true,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+        // The maximum number of pages a single slide can expand onto when printing
+        // to PDF, unlimited by default
+        pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+        // Prints each fragment on a separate slide
+        pdfSeparateFragments: true,
+        // Offset used to reduce the height of content within exported PDF pages.
+        // This exists to account for environment differences based on how you
+        // print to PDF. CLI printing options, like phantomjs and wkpdf, can end
+        // on precisely the total height of the document whereas in-browser
+        // printing has to end one pixel before.
+        pdfPageHeightOffset: -1,
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+        // The display mode that will be used to show slides
+        display: 'block',
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000
+      });
+      // Override SPACE to play / pause the video
+      Reveal.addKeyBinding(
+        {
+          keyCode: 32,
+          key: 'SPACE',
+          description: 'Play / pause video'
+        },
+        () => {
+          var currentVideos = Reveal.getCurrentSlide().slideBackgroundContentElement.getElementsByTagName("video");
+          if (currentVideos.length > 0) {
+            if (currentVideos[0].paused == true) currentVideos[0].play();
+            else currentVideos[0].pause();
+          } else {
+            Reveal.next();
+          }
+        }
+      );
+    </script>
+  </body>
+</html>

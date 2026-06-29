@@ -1,0 +1,19 @@
+# python / environments
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# manim render artifacts (regenerate: manim render + manim-slides convert)
+manim_slides/media/
+manim_slides/slides/
+manim_slides/outputs/
+
+# dataset downloads (re-fetched by torchvision / sklearn)
+data/
+notebooks/data/
+
+# generated notebook figures / saved models (regenerate by running the notebooks)
+notebooks/outputs/
+notebooks/example_*.png
